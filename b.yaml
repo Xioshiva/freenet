@@ -1,12 +1,11 @@
 address: "127.0.0.2"
 storage:
   - key: 55
-  address: "127.0.0.2"
+    address: "127.0.0.2"
   - key: 10
-  address: "127.0.0.5"
+    address: "127.0.0.5"
   - key: 67
-  address: "127.0.0.3"
-
+    address: "127.0.0.3"
 
 
 
