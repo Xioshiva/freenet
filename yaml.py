@@ -11,13 +11,9 @@ def yamlConvert(filename):
 
     with open(filename,"r") as file:
         nodes = yaml.load(file, Loader=yaml.FullLoader)
+    return nodes
 
-    test = []
 
-    for node in nodes:
-        nouveau = Node(node["id"],None,node["address"])
-        for neighbour in node["neighbours"]:
-            nouveau.addNeighbour(Neighbour(neighbour["id"],neighbour["address"]))
-        test.append(nouveau)
 
-    return test
+
+    
