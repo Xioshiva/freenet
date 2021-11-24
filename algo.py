@@ -45,7 +45,6 @@ def devine(myPepe: Pepe):
 
 def init(key):
     url = node["storage"]
-    print(url)
     myobj = {"key": 50}
     #resp = requests.post(url, data = myobj)
 
