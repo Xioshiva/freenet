@@ -124,5 +124,6 @@ if sys.argv[2] == "init":
         if(resp['text'] == "find"):
             app.node['storage'].append({'key': resp['key'], 'address':resp['sender']})
             yamlWrite(sys.argv[1], app.node)
+            print("Key found")
             break
         print("No key found")
